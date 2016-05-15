@@ -32,6 +32,9 @@ repositories {
 
 
 dependencies {
+	compile("org.springframework.security:spring-security-ldap")
+	compile("org.springframework:spring-tx")
+	compile("org.apache.directory.server:apacheds-server-jndi:1.5.5")
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile 'org.springframework.security.oauth:spring-security-oauth2:2.0.9.RELEASE'
 	compile 'org.springframework.security:spring-security-jwt'
